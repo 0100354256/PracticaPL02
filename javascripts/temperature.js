@@ -1,3 +1,5 @@
+require("blanket")({ /* optional options */ }),  require("src/myscripttotest");
+
 function calculate() {
   var original = document.getElementById("original");
   var temp = original.value;
