@@ -1,4 +1,4 @@
-require("blanket")({ pattern: packageJson.config.blanket.pattern });
+//require("blanket")({ pattern: packageJson.config.blanket.pattern });
 
 function calculate() {
   var original = document.getElementById("original");
