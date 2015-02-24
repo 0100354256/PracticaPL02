@@ -1,4 +1,4 @@
-require("blanket")({ /* optional options */ }),  require("src/myscripttotest");
+requirejs("blanket")({ pattern: packageJson.config.blanket.pattern });
 
 function calculate() {
   var original = document.getElementById("original");
